@@ -10,11 +10,10 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "test:push": "cross-env CI=true npm test -- --noStackTrace --coverage=false --watchAll=false --verbose=false --testTimeout=20000",
+    "test:push": "CI=true npm test -- --noStackTrace --coverage=false --watchAll=false --verbose=false --testTimeout=20000",
     "view:coverage": "open coverage/lcov-report/index.html"
   },
   "dependencies": {
-    "cross-env": "7.0.3",
     "dotenv": "10.0.0",
     "next": "latest",
     "react": "17.0.1",
