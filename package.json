@@ -6,7 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:push": "cross-env CI=true npm test -- --noStackTrace --coverage=false --watchAll=false --verbose=false --testTimeout=20000",
+    "view:coverage": "open coverage/lcov-report/index.html",
+    "typecheck": "tsc --project jsconfig.json --noEmit --skipLibCheck"
   },
   "dependencies": {
     "dotenv": "10.0.0",
@@ -15,21 +21,46 @@
     "react-dom": "17.0.1"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "5.12.0",
+    "@testing-library/react": "11.2.7",
     "autoprefixer": "10.0.4",
+    "babel-jest": "27.0.1",
     "eslint": "7.27.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-react": "7.23.2",
     "eslint-plugin-react-hooks": "4.2.0",
     "husky": "6.0.0",
+    "identity-obj-proxy": "3.0.0",
+    "jest": "27.0.1",
     "lint-staged": "11.0.0",
     "postcss": "8.1.10",
     "prettier": "2.3.0",
+    "react-test-renderer": "17.0.2",
     "stylelint-config-prettier": "8.0.2",
     "tailwindcss": "2.1.1"
   },
   "lint-staged": {
     "*.{js,jsx}": "eslint --fix",
     "*.{js,jsx,css,md}": "prettier --write"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 65,
+        "functions": 65,
+        "lines": 75,
+        "statements": 75
+      }
+    },
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/.next/",
+      "((\\.| /)(stories|story|mock))\\.[jt]sx?$",
+      "<rootDir>/.next",
+      "<rootDir>/models",
+      "<rootDir>/services",
+      "<rootDir>/utils"
+    ]
   }
 }
