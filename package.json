@@ -29,7 +29,7 @@
     "tailwindcss": "2.1.1"
   },
   "lint-staged": {
-    "*.{js,jsx}": "eslint --cache --fix",
+    "*.{js,jsx}": "eslint --fix",
     "*.{js,jsx,css,md}": "prettier --write"
   }
 }
