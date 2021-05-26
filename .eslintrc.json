@@ -1,23 +1,23 @@
-module.exports = {
-  env: {
-    browser: true,
-    es2021: true,
-    node: true,
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
   },
-  extends: [
+  "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:prettier/recommended",
+    "plugin:prettier/recommended"
   ],
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
     },
-    ecmaVersion: 12,
-    sourceType: "module",
+    "ecmaVersion": 12,
+    "sourceType": "module"
   },
-  plugins: ["react", "react-hooks"],
-  rules: {
+  "plugins": ["react", "react-hooks"],
+  "rules": {
     "react/display-name": 0,
     "react/jsx-props-no-spreading": 0,
     "react/state-in-constructor": 0,
@@ -71,8 +71,8 @@ module.exports = {
     "space-before-function-paren": 0,
     "no-unused-vars": [
       "error",
-      { vars: "all", args: "after-used", ignoreRestSiblings: false },
+      { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
     ],
-    "prettier/prettier": ["error", {}, { usePrettierrc: true }],
-  },
-};
+    "prettier/prettier": ["error", {}, { "usePrettierrc": true }]
+  }
+}

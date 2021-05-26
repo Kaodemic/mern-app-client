@@ -55,11 +55,7 @@
     "coveragePathIgnorePatterns": [
       "/node_modules/",
       "/.next/",
-      "((\\.| /)(stories|story|mock))\\.[jt]sx?$",
-      "<rootDir>/.next",
-      "<rootDir>/models",
-      "<rootDir>/services",
-      "<rootDir>/utils"
+      "((\\.| /)(stories|story|mock))\\.[jt]sx?$"
     ]
   }
 }
