@@ -14,6 +14,7 @@
     "view:coverage": "open coverage/lcov-report/index.html"
   },
   "dependencies": {
+    "cross-env": "7.0.3",
     "dotenv": "10.0.0",
     "next": "latest",
     "react": "17.0.1",
