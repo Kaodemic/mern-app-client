@@ -11,8 +11,7 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "test:push": "cross-env CI=true npm test -- --noStackTrace --coverage=false --watchAll=false --verbose=false --testTimeout=20000",
-    "view:coverage": "open coverage/lcov-report/index.html",
-    "typecheck": "tsc --project jsconfig.json --noEmit --skipLibCheck"
+    "view:coverage": "open coverage/lcov-report/index.html"
   },
   "dependencies": {
     "dotenv": "10.0.0",
