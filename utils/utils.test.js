@@ -11,6 +11,7 @@ describe("test function utils.js", () => {
     const result = stripHTML(strHTML);
     expect(result).toMatch(strWithoutHTML);
   });
+
   describe("toSlug", () => {
     it("toSlug without HTML", () => {
       const result = toSlug(strHTML);
