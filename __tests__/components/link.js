@@ -6,7 +6,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { act } from "react-dom/test-utils";
 import renderer from "react-test-renderer";
-import NextLink from "./index";
+import NextLink from "../../components/link";
 
 let container;
 
