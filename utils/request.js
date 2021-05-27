@@ -23,7 +23,7 @@ const errorHandler = (error) => {
   const { response } = error;
   if (response && response.status) {
     const errorText = codeMessage[response.status] || response.statusText;
-    // const { status, url } = response;
+
     toast.error(errorText, {
       position: "top-right",
       autoClose: 5000,
@@ -51,8 +51,9 @@ const errorHandler = (error) => {
 };
 
 const request = extend({
+  prefix: process.env.API_URL,
   errorHandler,
-  credentials: "include",
+  credentials: "same-origin",
 });
 
 export default request;
