@@ -1,83 +1,59 @@
+import { useState, useEffect } from "react";
 import Head from "next/head";
+import ArticleItem from "components/article-item";
+import request from "utils/request";
 
 function Home() {
+  const [articles, setArticles] = useState([]);
+
+  useEffect(() => {
+    async function fetchArticle() {
+      const res = await request("/v2/latest-article", {
+        params: {
+          language: "VN",
+          page: 1,
+          isIgnoreFeatureArticle: true,
+        },
+      });
+      setArticles(res?.data?.docs);
+    }
+    fetchArticle();
+  }, []);
+
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{" "}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{" "}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
-        </p>
-
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+      <div className="container grid grid-cols-12 gap-3 px-3 mx-auto">
+        <div
+          className={
+            "col-span-12 md:col-span-9 lg:col-span-6 xl:col-span-5 border rounded-lg divide-y"
+          }
         >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-        </a>
-      </footer>
-    </div>
+          {articles.map((_, index) => (
+            <ArticleItem
+              key={index}
+              avatar={"/v1621748084728/nQ7lrJxnS.jpeg"}
+              name={"Rahul"}
+              userName={"mcxim"}
+              publishDate={"May 27, 2021"}
+              slug={"asynchronous-programming-in-javascript"}
+              title={"Asynchronous Programming in JavaScript"}
+              category={"Javascript"}
+              tags={"javascript,learning,asynchronous"}
+              excerpt={
+                "They say time is the fourth measurement in our universe. I say that nonconcurrent(asynchronous) computer programs are the fourth element of your rationale. You wanna raise your coding to this new even out of authority? Let's read this post."
+              }
+              coverImage={"/v1622095969334/EDkvIgxJ7.png"}
+              likeCount={1}
+              commentCount={2}
+            />
+          ))}
+        </div>
+      </div>
+    </>
   );
 }
 

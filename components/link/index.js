@@ -1,9 +1,15 @@
 import Link from "next/link";
 
-export default function NextLink({ href, locale, content }) {
+export default function NextLink({
+  href,
+  locale,
+  content,
+  children,
+  className,
+}) {
   return (
     <Link href={href} locale={locale}>
-      <a>{content}</a>
+      <a className={className}>{content || children}</a>
     </Link>
   );
 }

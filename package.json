@@ -58,6 +58,8 @@
       "/node_modules/",
       "/.next/",
       "((\\.| /)(stories|story|mock))\\.[jt]sx?$"
-    ]
+    ],
+    "moduleDirectories": ["node_modules", "pages"],
+    "rootDir": "./"
   }
 }
