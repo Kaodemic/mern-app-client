@@ -73,6 +73,11 @@
       "error",
       { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
     ],
+    "quotes": [
+      "error",
+      "single",
+      { "avoidEscape": true, "allowTemplateLiterals": false }
+    ],
     "prettier/prettier": ["error", {}, { "usePrettierrc": true }]
   }
 }

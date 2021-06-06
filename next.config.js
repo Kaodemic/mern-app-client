@@ -1,4 +1,4 @@
-require("dotenv").config();
+require('dotenv').config();
 
 const { API_URL, HOST_IMAGE_URL } = process.env;
 
@@ -8,12 +8,12 @@ module.exports = {
     HOST_IMAGE_URL,
   },
   i18n: {
-    locales: ["vi", "en"],
-    defaultLocale: "vi",
+    locales: ['vi', 'en'],
+    defaultLocale: 'vi',
     localeDetection: false,
   },
   images: {
-    loader: "imgix",
+    loader: 'imgix',
     path: HOST_IMAGE_URL,
   },
 };

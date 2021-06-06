@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ArticleItem 1`] = `
+<article
+  className="p-5"
+>
+  <div
+    className="flex items-center space-x-2 mb-4"
+  >
+    <div
+      style={
+        Object {
+          "boxSizing": "border-box",
+          "display": "inline-block",
+          "margin": 0,
+          "maxWidth": "100%",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "block",
+            "maxWidth": "100%",
+          }
+        }
+      >
+        <img
+          alt=""
+          aria-hidden={true}
+          role="presentation"
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+          style={
+            Object {
+              "border": "none",
+              "display": "block",
+              "margin": 0,
+              "maxWidth": "100%",
+              "padding": 0,
+            }
+          }
+        />
+      </div>
+      <noscript>
+        <img
+          alt="Rahul"
+          className="rounded-full"
+          decoding="async"
+          src="/v1621748084728/nQ7lrJxnS.jpeg"
+          srcSet="/_next/image?url=%2Fv1621748084728%2FnQ7lrJxnS.jpeg&w=48&q=75 1x, /_next/image?url=%2Fv1621748084728%2FnQ7lrJxnS.jpeg&w=96&q=75 2x"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
+      <img
+        alt="Rahul"
+        className="rounded-full"
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style={
+          Object {
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+    </div>
+    <div
+      className="flex flex-col leading-snug"
+    >
+      <a
+        className="text-sm font-medium"
+        href="/@mcxim"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Rahul
+      </a>
+      <span
+        className="text-xs text-gray-500"
+      >
+        May 27, 2021
+      </span>
+    </div>
+  </div>
+  <div
+    className="flex flex-wrap"
+  >
+    <div
+      className="lg:w-auto lg:flex-1 pr-5"
+    >
+      <a
+        className="block"
+        href="/asynchronous-programming-in-javascript"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <h2
+          className="text-xl font-semibold mb-1"
+        >
+          Asynchronous Programming in JavaScript
+        </h2>
+      </a>
+      <h3
+        className="font-medium mb-1 text-green-700"
+      >
+        Javascript
+      </h3>
+      <a
+        className="block"
+        href="/asynchronous-programming-in-javascript"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <p
+          className="excerpt"
+        >
+          They say time is the fourth measurement in our universe. I say that nonconcurrent(asynchronous) computer programs are the fourth element of your rationale. You wanna raise your coding to this new even out of authority? Let's read this post.
+        </p>
+      </a>
+      <div
+        className="space-x-2"
+      >
+        <span
+          className="tag"
+        >
+          #
+          javascript
+        </span>
+        <span
+          className="tag"
+        >
+          #
+          learning
+        </span>
+        <span
+          className="tag"
+        >
+          #
+          asynchronous
+        </span>
+      </div>
+    </div>
+    <a
+      className="coverImage"
+      href="/asynchronous-programming-in-javascript"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <div
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "margin": 0,
+            "maxWidth": "100%",
+            "overflow": "hidden",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "display": "block",
+              "maxWidth": "100%",
+            }
+          }
+        >
+          <img
+            alt=""
+            aria-hidden={true}
+            role="presentation"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzAwIiBoZWlnaHQ9IjQ3NSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+            style={
+              Object {
+                "border": "none",
+                "display": "block",
+                "margin": 0,
+                "maxWidth": "100%",
+                "padding": 0,
+              }
+            }
+          />
+        </div>
+        <noscript>
+          <img
+            alt="Asynchronous Programming in JavaScript"
+            className="rounded-md"
+            decoding="async"
+            src="/v1622095969334/EDkvIgxJ7.png"
+            srcSet="/_next/image?url=%2Fv1622095969334%2FEDkvIgxJ7.png&w=750&q=75 1x, /_next/image?url=%2Fv1622095969334%2FEDkvIgxJ7.png&w=1920&q=75 2x"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </noscript>
+        <img
+          alt="Asynchronous Programming in JavaScript"
+          className="rounded-md"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </div>
+    </a>
+  </div>
+</article>
+`;

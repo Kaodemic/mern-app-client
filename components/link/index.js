@@ -1,15 +1,20 @@
-import Link from "next/link";
+import Link from 'next/link';
+import PropTypes from 'prop-types';
+import { useRouter } from 'next/router';
 
-export default function NextLink({
-  href,
-  locale,
-  content,
-  children,
-  className,
-}) {
+export default function NextLink(props) {
+  const { href, locale, children, className } = props;
+  const router = useRouter();
   return (
-    <Link href={href} locale={locale}>
-      <a className={className}>{content || children}</a>
+    <Link href={href} locale={locale || router?.locale}>
+      <a className={className}>{children}</a>
     </Link>
   );
 }
+
+NextLink.propTypes = {
+  href: PropTypes.string.isRequired,
+  locale: PropTypes.string,
+  children: PropTypes.oneOfType([PropTypes.element, PropTypes.elementType]),
+  className: PropTypes.string,
+};
