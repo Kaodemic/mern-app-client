@@ -13,3 +13,14 @@ export const articleItemFixtures = {
   likeCount: 1,
   commentCount: 2,
 };
+
+export const articleItemSmallFixtures = {
+  avatar: '/v1621748084728/nQ7lrJxnS.jpeg',
+  name: 'Rahul',
+  userName: 'mcxim',
+  slug: 'asynchronous-programming-in-javascript',
+  title: 'Asynchronous Programming in JavaScript',
+  category: 'Javascript',
+  likeCount: 1,
+  commentCount: 2,
+};

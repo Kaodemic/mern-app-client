@@ -1,7 +1,7 @@
-import { ArticleItemSmall } from 'components/article-item';
-import TrendingBlogs from 'components/trending-blogs';
+import { ArticleItemSmall } from '../components/article-item';
+import TrendingBlogs from '../components/trending-blogs';
 
-export default function Layout(props) {
+export default function Container(props) {
   return (
     <>
       <div className="container grid grid-cols-12 gap-3 px-3 mx-auto">

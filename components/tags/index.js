@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import NextLink from '../link';
 import { toSlug } from '../../utils/utils';
 
-export default function Tags({ tags = '' }) {
+export default function Tags({ tags }) {
   return (
     <div className={'space-y-2'}>
       {tags.split(',').map((tag) => (
@@ -22,4 +22,8 @@ export default function Tags({ tags = '' }) {
 
 Tags.propTypes = {
   tags: PropTypes.string.isRequired,
+};
+
+Tags.defaultProps = {
+  tags: '',
 };

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import { ArticleItem } from 'components/article-item';
-import Layout from 'layouts/container';
+import Container from 'layouts/container';
 import request from 'utils/request';
 
 function Home() {
@@ -28,7 +28,7 @@ function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Layout>
+      <Container>
         <div className={'border rounded-t-md divide-y bg-white'}>
           {articles.map((_, index) => (
             <ArticleItem
@@ -55,7 +55,7 @@ function Home() {
             {"You've reached the end! 👋"}
           </p>
         </div>
-      </Layout>
+      </Container>
     </>
   );
 }

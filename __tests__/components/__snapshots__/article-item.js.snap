@@ -2,10 +2,367 @@
 
 exports[`renders ArticleItem 1`] = `
 <article
-  className="p-5"
+  className="p-5 space-y-4"
 >
   <div
-    className="flex items-center space-x-2 mb-4"
+    className="flex items-center space-x-2"
+  >
+    <a
+      className="text-sm font-medium"
+      href="/@mcxim"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <div
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "margin": 0,
+            "maxWidth": "100%",
+            "overflow": "hidden",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "display": "block",
+              "maxWidth": "100%",
+            }
+          }
+        >
+          <img
+            alt=""
+            aria-hidden={true}
+            role="presentation"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+            style={
+              Object {
+                "border": "none",
+                "display": "block",
+                "margin": 0,
+                "maxWidth": "100%",
+                "padding": 0,
+              }
+            }
+          />
+        </div>
+        <noscript>
+          <img
+            alt="Rahul"
+            className="rounded-full"
+            decoding="async"
+            src="/v1621748084728/nQ7lrJxnS.jpeg"
+            srcSet="/_next/image?url=%2Fv1621748084728%2FnQ7lrJxnS.jpeg&w=48&q=75 1x, /_next/image?url=%2Fv1621748084728%2FnQ7lrJxnS.jpeg&w=96&q=75 2x"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </noscript>
+        <img
+          alt="Rahul"
+          className="rounded-full"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </div>
+    </a>
+    <div
+      className="flex flex-col leading-snug"
+    >
+      <a
+        className="text-sm font-medium"
+        href="/@mcxim"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Rahul
+      </a>
+      <span
+        className="text-xs text-gray-500"
+      >
+        May 27, 2021
+      </span>
+    </div>
+  </div>
+  <div
+    className="flex flex-wrap space-y-4 lg:space-y-0"
+  >
+    <div
+      className="lg:w-auto lg:flex-1 pr-0 lg:pr-5 space-y-1"
+    >
+      <h2
+        className="text-xl font-semibold"
+      >
+        <a
+          href="/javascript/asynchronous-programming-in-javascript"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          Asynchronous Programming in JavaScript
+        </a>
+      </h2>
+      <h3
+        className="font-medium text-green-700"
+      >
+        <a
+          href="/javascript"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          Javascript
+        </a>
+      </h3>
+      <a
+        className="block"
+        href="/javascript/asynchronous-programming-in-javascript"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <p
+          className="excerpt"
+        >
+          They say time is the fourth measurement in our universe. I say that nonconcurrent(asynchronous) computer programs are the fourth element of your rationale. You wanna raise your coding to this new even out of authority? Let's read this post.
+        </p>
+      </a>
+      <div
+        className="space-y-2"
+      >
+        <a
+          className="px-2 py-1 text-gray-800 text-sm bg-gray-200 rounded-md mr-2"
+          href="/tags/javascript"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          #javascript
+        </a>
+        <a
+          className="px-2 py-1 text-gray-800 text-sm bg-gray-200 rounded-md mr-2"
+          href="/tags/learning"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          #learning
+        </a>
+        <a
+          className="px-2 py-1 text-gray-800 text-sm bg-gray-200 rounded-md mr-2"
+          href="/tags/asynchronous"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          #asynchronous
+        </a>
+      </div>
+    </div>
+    <a
+      className="coverImage"
+      href="/javascript/asynchronous-programming-in-javascript"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <div
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "margin": 0,
+            "maxWidth": "100%",
+            "overflow": "hidden",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "display": "block",
+              "maxWidth": "100%",
+            }
+          }
+        >
+          <img
+            alt=""
+            aria-hidden={true}
+            role="presentation"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2MzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+            style={
+              Object {
+                "border": "none",
+                "display": "block",
+                "margin": 0,
+                "maxWidth": "100%",
+                "padding": 0,
+              }
+            }
+          />
+        </div>
+        <noscript>
+          <img
+            alt="Asynchronous Programming in JavaScript"
+            className="rounded-md"
+            decoding="async"
+            src="/v1622095969334/EDkvIgxJ7.png"
+            srcSet="/_next/image?url=%2Fv1622095969334%2FEDkvIgxJ7.png&w=1200&q=75 1x, /_next/image?url=%2Fv1622095969334%2FEDkvIgxJ7.png&w=3840&q=75 2x"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </noscript>
+        <img
+          alt="Asynchronous Programming in JavaScript"
+          className="rounded-md"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </div>
+    </a>
+  </div>
+  <div
+    className="flex items-center space-x-8"
+  >
+    <button
+      className="flex items-center focus:outline-none space-x-2"
+    >
+      <svg
+        className="w-5 h-5 fill-current"
+        viewBox="0 0 512 512"
+      >
+        <path
+          d="M496.656 285.683C506.583 272.809 512 256 512 235.468c-.001-37.674-32.073-72.571-72.727-72.571h-70.15c8.72-17.368 20.695-38.911 20.695-69.817C389.819 34.672 366.518 0 306.91 0c-29.995 0-41.126 37.918-46.829 67.228-3.407 17.511-6.626 34.052-16.525 43.951C219.986 134.75 184 192 162.382 203.625c-2.189.922-4.986 1.648-8.032 2.223C148.577 197.484 138.931 192 128 192H32c-17.673 0-32 14.327-32 32v256c0 17.673 14.327 32 32 32h96c17.673 0 32-14.327 32-32v-8.74c32.495 0 100.687 40.747 177.455 40.726 5.505.003 37.65.03 41.013 0 59.282.014 92.255-35.887 90.335-89.793 15.127-17.727 22.539-43.337 18.225-67.105 12.456-19.526 15.126-47.07 9.628-69.405zM32 480V224h96v256H32zm424.017-203.648C472 288 472 336 450.41 347.017c13.522 22.76 1.352 53.216-15.015 61.996 8.293 52.54-18.961 70.606-57.212 70.974-3.312.03-37.247 0-40.727 0-72.929 0-134.742-40.727-177.455-40.727V235.625c37.708 0 72.305-67.939 106.183-101.818 30.545-30.545 20.363-81.454 40.727-101.817 50.909 0 50.909 35.517 50.909 61.091 0 42.189-30.545 61.09-30.545 101.817h111.999c22.73 0 40.627 20.364 40.727 40.727.099 20.363-8.001 36.375-23.984 40.727zM104 432c0 13.255-10.745 24-24 24s-24-10.745-24-24 10.745-24 24-24 24 10.745 24 24z"
+        />
+      </svg>
+      <span
+        className="text-base"
+      >
+        1
+      </span>
+    </button>
+    <div
+      className="flex items-center space-x-2"
+    >
+      <svg
+        className="w-5 h-5 fill-current"
+        viewBox="0 0 512 512"
+      >
+        <path
+          d="M280 272H136c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h144c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8zm96-96H136c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h240c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8zM256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 384c-28.3 0-56.3-4.3-83.2-12.8l-15.2-4.8-13 9.2c-23 16.3-58.5 35.3-102.6 39.6 12-15.1 29.8-40.4 40.8-69.6l7.1-18.7-13.7-14.6C47.3 313.7 32 277.6 32 240c0-97 100.5-176 224-176s224 79 224 176-100.5 176-224 176z"
+        />
+      </svg>
+      <span>
+        2
+      </span>
+    </div>
+    <button
+      className="focus:outline-none"
+    >
+      <svg
+        className="w-5 h-5 fill-current"
+        viewBox="0 0 384 512"
+      >
+        <path
+          d="M336 0H48C21.49 0 0 21.49 0 48v464l192-112 192 112V48c0-26.51-21.49-48-48-48zm16 456.287l-160-93.333-160 93.333V48c0-8.822 7.178-16 16-16h288c8.822 0 16 7.178 16 16v408.287z"
+        />
+      </svg>
+    </button>
+  </div>
+</article>
+`;
+
+exports[`renders ArticleItemSmall 1`] = `
+<article
+  className="flex py-4 space-x-4"
+>
+  <a
+    className="text-sm font-medium"
+    href="/@mcxim"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
   >
     <div
       style={
@@ -104,186 +461,67 @@ exports[`renders ArticleItem 1`] = `
         }
       />
     </div>
-    <div
-      className="flex flex-col leading-snug"
-    >
-      <a
-        className="text-sm font-medium"
-        href="/@mcxim"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
-      >
-        Rahul
-      </a>
-      <span
-        className="text-xs text-gray-500"
-      >
-        May 27, 2021
-      </span>
-    </div>
-  </div>
+  </a>
   <div
-    className="flex flex-wrap"
+    className="space-y-2"
   >
-    <div
-      className="lg:w-auto lg:flex-1 pr-5"
+    <h2
+      className="text-base leading-tight font-medium"
     >
       <a
-        className="block"
-        href="/asynchronous-programming-in-javascript"
+        href="/javascript/asynchronous-programming-in-javascript"
         onClick={[Function]}
         onMouseEnter={[Function]}
       >
-        <h2
-          className="text-xl font-semibold mb-1"
-        >
-          Asynchronous Programming in JavaScript
-        </h2>
+        Asynchronous Programming in JavaScript
       </a>
-      <h3
-        className="font-medium mb-1 text-green-700"
-      >
-        Javascript
-      </h3>
-      <a
-        className="block"
-        href="/asynchronous-programming-in-javascript"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
-      >
-        <p
-          className="excerpt"
-        >
-          They say time is the fourth measurement in our universe. I say that nonconcurrent(asynchronous) computer programs are the fourth element of your rationale. You wanna raise your coding to this new even out of authority? Let's read this post.
-        </p>
-      </a>
-      <div
-        className="space-x-2"
-      >
-        <span
-          className="tag"
-        >
-          #
-          javascript
-        </span>
-        <span
-          className="tag"
-        >
-          #
-          learning
-        </span>
-        <span
-          className="tag"
-        >
-          #
-          asynchronous
-        </span>
-      </div>
-    </div>
+    </h2>
     <a
-      className="coverImage"
-      href="/asynchronous-programming-in-javascript"
+      className="text-sm text-gray-500 block mt-1"
+      href="/@mcxim"
       onClick={[Function]}
       onMouseEnter={[Function]}
     >
-      <div
-        style={
-          Object {
-            "boxSizing": "border-box",
-            "display": "inline-block",
-            "margin": 0,
-            "maxWidth": "100%",
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
-      >
-        <div
-          style={
-            Object {
-              "boxSizing": "border-box",
-              "display": "block",
-              "maxWidth": "100%",
-            }
-          }
-        >
-          <img
-            alt=""
-            aria-hidden={true}
-            role="presentation"
-            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzAwIiBoZWlnaHQ9IjQ3NSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
-            style={
-              Object {
-                "border": "none",
-                "display": "block",
-                "margin": 0,
-                "maxWidth": "100%",
-                "padding": 0,
-              }
-            }
-          />
-        </div>
-        <noscript>
-          <img
-            alt="Asynchronous Programming in JavaScript"
-            className="rounded-md"
-            decoding="async"
-            src="/v1622095969334/EDkvIgxJ7.png"
-            srcSet="/_next/image?url=%2Fv1622095969334%2FEDkvIgxJ7.png&w=750&q=75 1x, /_next/image?url=%2Fv1622095969334%2FEDkvIgxJ7.png&w=1920&q=75 2x"
-            style={
-              Object {
-                "border": "none",
-                "bottom": 0,
-                "boxSizing": "border-box",
-                "display": "block",
-                "height": 0,
-                "left": 0,
-                "margin": "auto",
-                "maxHeight": "100%",
-                "maxWidth": "100%",
-                "minHeight": "100%",
-                "minWidth": "100%",
-                "objectFit": undefined,
-                "objectPosition": undefined,
-                "padding": 0,
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-                "width": 0,
-              }
-            }
-          />
-        </noscript>
-        <img
-          alt="Asynchronous Programming in JavaScript"
-          className="rounded-md"
-          decoding="async"
-          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-          style={
-            Object {
-              "border": "none",
-              "bottom": 0,
-              "boxSizing": "border-box",
-              "display": "block",
-              "height": 0,
-              "left": 0,
-              "margin": "auto",
-              "maxHeight": "100%",
-              "maxWidth": "100%",
-              "minHeight": "100%",
-              "minWidth": "100%",
-              "objectFit": undefined,
-              "objectPosition": undefined,
-              "padding": 0,
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-              "width": 0,
-            }
-          }
-        />
-      </div>
+      Rahul
     </a>
+    <div
+      className="flex items-center space-x-4"
+    >
+      <button
+        className="flex items-center focus:outline-none space-x-1"
+      >
+        <svg
+          className="w-4 h-4"
+          viewBox="0 0 512 512"
+        >
+          <path
+            d="M496.656 285.683C506.583 272.809 512 256 512 235.468c-.001-37.674-32.073-72.571-72.727-72.571h-70.15c8.72-17.368 20.695-38.911 20.695-69.817C389.819 34.672 366.518 0 306.91 0c-29.995 0-41.126 37.918-46.829 67.228-3.407 17.511-6.626 34.052-16.525 43.951C219.986 134.75 184 192 162.382 203.625c-2.189.922-4.986 1.648-8.032 2.223C148.577 197.484 138.931 192 128 192H32c-17.673 0-32 14.327-32 32v256c0 17.673 14.327 32 32 32h96c17.673 0 32-14.327 32-32v-8.74c32.495 0 100.687 40.747 177.455 40.726 5.505.003 37.65.03 41.013 0 59.282.014 92.255-35.887 90.335-89.793 15.127-17.727 22.539-43.337 18.225-67.105 12.456-19.526 15.126-47.07 9.628-69.405zM32 480V224h96v256H32zm424.017-203.648C472 288 472 336 450.41 347.017c13.522 22.76 1.352 53.216-15.015 61.996 8.293 52.54-18.961 70.606-57.212 70.974-3.312.03-37.247 0-40.727 0-72.929 0-134.742-40.727-177.455-40.727V235.625c37.708 0 72.305-67.939 106.183-101.818 30.545-30.545 20.363-81.454 40.727-101.817 50.909 0 50.909 35.517 50.909 61.091 0 42.189-30.545 61.09-30.545 101.817h111.999c22.73 0 40.627 20.364 40.727 40.727.099 20.363-8.001 36.375-23.984 40.727zM104 432c0 13.255-10.745 24-24 24s-24-10.745-24-24 10.745-24 24-24 24 10.745 24 24z"
+          />
+        </svg>
+        <span
+          className="text-sm"
+        >
+          1
+        </span>
+      </button>
+      <div
+        className="flex items-center space-x-1"
+      >
+        <svg
+          className="w-4 h-4"
+          viewBox="0 0 512 512"
+        >
+          <path
+            d="M280 272H136c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h144c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8zm96-96H136c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h240c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8zM256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 384c-28.3 0-56.3-4.3-83.2-12.8l-15.2-4.8-13 9.2c-23 16.3-58.5 35.3-102.6 39.6 12-15.1 29.8-40.4 40.8-69.6l7.1-18.7-13.7-14.6C47.3 313.7 32 277.6 32 240c0-97 100.5-176 224-176s224 79 224 176-100.5 176-224 176z"
+          />
+        </svg>
+        <span
+          className="text-sm"
+        >
+          2
+        </span>
+      </div>
+    </div>
   </div>
 </article>
 `;

@@ -11,6 +11,7 @@ module.exports = {
     '!**/__test__/__fixtures__/*.fixtures.{js,jsx,ts,tsx}',
     '!**/utils/request.js',
     '!**/pages/index.js',
+    '!.stylelintrc.js',
   ],
   setupFilesAfterEnv: ['<rootDir>/setupTests.js'],
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
