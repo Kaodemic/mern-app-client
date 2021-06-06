@@ -8,7 +8,7 @@ module.exports = {
     '!**/coverage/**',
     '!**/config/**',
     '!**/pages/_app.js',
-    '!**/__test__/__fixtures__/*.fixtures.{js,jsx,ts,tsx}',
+    '!**/__test__/__fixtures__/**',
     '!**/utils/request.js',
     '!**/pages/index.js',
     '!.stylelintrc.js',
